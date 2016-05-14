@@ -20,3 +20,12 @@ hr {
   margin-top: 50px;
   margin-left: 100px;
 }
+.proj-row {
+  margin-top: 50px;
+}
+.proj-container {
+  padding: 50px;
+}
+.proj-img {
+  width: 450px;
+}
