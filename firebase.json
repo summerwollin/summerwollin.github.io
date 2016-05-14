@@ -1,0 +1,9 @@
+{
+  "firebase": "summer-wollin",
+  "public": "client",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
