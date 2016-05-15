@@ -4,6 +4,14 @@ angular.module('SummerWollin')
 
     function HeaderController ($scope) {
         var vm = this;
+        vm.active = 'about';
+        vm.isActive = isActive;
+
+        function isActive() {
+          console.log('here');
+          console.log(activePage);
+          vm.active = activePage;
+        }
     }
 
     function HeaderDirective () {
