@@ -18,6 +18,10 @@
       .state('projects', {
         url: '/projects',
         templateUrl: 'projects.html'
+      })
+      .state('contact', {
+        url: '/contact',
+        templateUrl: 'contact.html'
       });
 
     });

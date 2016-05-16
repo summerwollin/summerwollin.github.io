@@ -4,6 +4,7 @@ a {
 }
 * {
   background-color: rgb(9, 37, 67);
+  font-family: Courier;
 }
 a:hover {
   text-decoration: none;
@@ -52,6 +53,10 @@ hr {
 }
 .proj-img {
   width: 450px;
+  transition: all 0.5s ease;
+}
+.proj-img:hover {
+  width: 500px;
 }
 .img-icon:hover {
   width: 120px;
