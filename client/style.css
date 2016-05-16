@@ -4,7 +4,6 @@ a {
 }
 * {
   background-color: rgb(9, 37, 67);
-  color: rgb(33, 168, 219);
 }
 a:hover {
   text-decoration: none;
@@ -13,10 +12,12 @@ a:hover {
 h3 {
   color: rgb(33, 168, 219);
 }
+h2 {
+  color: rgb(33, 168, 219);
+}
 p {
   color: white;
 }
-
 .header {
   margin-top: 40px;
 }
@@ -31,6 +32,9 @@ hr {
 .about-p {
   width: 240px;
 }
+.logo {
+  margin-top: -30px;
+}
 .img-icon {
   width: 100px;
   height: 100px;
@@ -38,6 +42,7 @@ hr {
   border: #ccc;
   margin-top: 50px;
   margin-left: 100px;
+  transition: all 0.5s ease;
 }
 .proj-row {
   margin-top: 50px;
@@ -47,4 +52,8 @@ hr {
 }
 .proj-img {
   width: 450px;
+}
+.img-icon:hover {
+  width: 120px;
+  height: 120px;
 }
