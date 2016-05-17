@@ -3,25 +3,38 @@ a {
   color: rgb(33, 168, 219);
 }
 * {
-  background-color: rgb(9, 37, 67);
   font-family: Courier;
 }
+body {
+  background-color: rgb(33, 168, 219);
+
+}
+/*.ng-scope {
+  background-color: rgb(33, 168, 219);
+}*/
+/*.headrow2 {
+  width: 100%;
+  margin-top: -30px;
+  height: 100px;
+  background-color: rgb(9, 37, 67);
+}*/
+/*.mainrow {
+  background-color: white;
+}*/
 a:hover {
   text-decoration: none;
   color: white;
 }
-h3 {
+h4 {
   color: rgb(33, 168, 219);
 }
 h2 {
   color: rgb(33, 168, 219);
 }
-p {
-  color: white;
-}
-.header {
+
+/*.header {
   margin-top: 40px;
-}
+}*/
 img {
   margin-top: -15px;
   width: 250px;
@@ -34,7 +47,8 @@ hr {
   width: 240px;
 }
 .logo {
-  margin-top: -30px;
+  width: 100vw;
+  margin-top: -2px;
 }
 .img-icon {
   width: 100px;
@@ -42,7 +56,8 @@ hr {
   border-radius: 10px;
   border: #ccc;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 80px;
+
   transition: all 0.5s ease;
 }
 .proj-row {
@@ -61,4 +76,27 @@ hr {
 .img-icon:hover {
   width: 120px;
   height: 120px;
+}
+.aboutContainer {
+  background-color: white;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+}
+
+.headerContainer {
+  padding-left: 150px;
+  padding-right: 50px;
+  margin: 0;
+  background-color: rgb(9, 37, 67);
+  height: 70px;
+}
+.headerColumn {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  width: 120px;
+  padding-top: 5px;
 }
