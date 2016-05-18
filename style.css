@@ -1,26 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 a {
   text-decoration: none;
   color: rgb(33, 168, 219);
 }
 * {
-  font-family: Courier;
+  font-family: Lato;
 }
 body {
   background-color: rgb(33, 168, 219);
 
 }
-/*.ng-scope {
-  background-color: rgb(33, 168, 219);
-}*/
-/*.headrow2 {
-  width: 100%;
-  margin-top: -30px;
-  height: 100px;
-  background-color: rgb(9, 37, 67);
-}*/
-/*.mainrow {
-  background-color: white;
-}*/
+
 a:hover {
   text-decoration: none;
   color: white;
@@ -32,9 +22,6 @@ h2 {
   color: rgb(33, 168, 219);
 }
 
-/*.header {
-  margin-top: 40px;
-}*/
 img {
   margin-top: -15px;
   width: 250px;
@@ -62,6 +49,14 @@ hr {
 }
 .proj-row {
   margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.proj-row * {
+  margin-top: 10px;
 }
 .proj-container {
   padding: 50px;
@@ -86,6 +81,7 @@ hr {
 }
 
 .headerContainer {
+  box-shadow: inset 10px 5px 10px #000;
   padding-left: 150px;
   padding-right: 50px;
   margin: 0;
@@ -99,4 +95,11 @@ hr {
 .logo {
   width: 120px;
   padding-top: 5px;
+}
+.projContainer {
+  /*display: flex;*/
+}
+.media {
+  /*margin: auto;*/
+  width: 80%;
 }
