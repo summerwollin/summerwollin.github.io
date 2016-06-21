@@ -5,6 +5,7 @@
   <title>Summer Wollin</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-OiWEn8WwtH+084y4yW2YhhH6z/qTSecHZuk/eiWtnvLtU+Z8lpDsmhOKkex6YARr" crossorigin="anonymous">
   <link rel="icon" type="image/png" href="/favicon.ico">
   <link rel="stylesheet" href="style.css">
 
@@ -22,14 +23,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Summer Wollin</a>
+        <a class="navbar-brand" href="#"><img class="img-name" src="images/s-logo-section.png" alt="" /></a>
+        <a class="navbar-brand" href="#"><img class="img-name" src="images/s-logo.png" alt="" /></a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -37,13 +39,13 @@
   <div class="container-fluid">
     <img class="img-jumbo" src="/images/flatirons-main.jpg" alt="main photo" />
   </div>
-  <div class="container container-skills">
+  <div class="container container-skills" id="skills">
     <div class="row">
       <div class="text-center">
         <h1>Skills</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row row-icons">
       <div class="col-md-3">
         <img class="img-icon" src="/images/javascript.png" alt="" />
       </div>
@@ -54,10 +56,10 @@
         <img class="img-icon" src="/images/express.png" alt="" />
       </div>
       <div class="col-md-3">
-        <img class="img-icon" src="/images/knex.svg" alt="" />
+        <img class="img-icon" src="/images/knex2.png" alt="" />
       </div>
     </div>
-    <div class="row">
+    <div class="row row-icons">
       <div class="col-md-3">
         <img class="img-icon" src="/images/jquery.gif" alt="" />
       </div>
@@ -71,7 +73,7 @@
         <img class="img-icon" src="/images/angular.png" alt="" />
       </div>
     </div>
-    <div class="row">
+    <div class="row row-icons">
       <div class="col-md-3">
         <img class="img-icon" src="/images/mocha.png" alt="" />
       </div>
@@ -87,7 +89,7 @@
     </div>
 
   </div>
-  <div class="container container-projects">
+  <div class="container container-projects" id="projects">
 
     <div class="row">
       <div class="text-center">
@@ -97,56 +99,67 @@
 
     <div class="row">
       <div class="col-sm-12 col-md-6">
+        <a class="a-proj" href="https://spaceinvadersjs.firebaseapp.com/">
         <div class="thumbnail">
           <img src="/images/invaders.png" alt="...">
           <div class="caption text-center">
-            <h3>Thumbnail label</h3>
-            <p>...</p>
+            <h3>Space Invaders</h3>
+            <p>A front end JavaScript game using HTML5 Canvas and the Gamepad API. Players can choose between play modes, record high scores, and use an Xbox360 controller in this in­browser game.</p>
           </div>
         </div>
+        </a>
       </div>
       <div class="col-sm-12 col-md-6">
+        <a class="a-proj" href="https://where-a-bouts.herokuapp.com/">
+
         <div class="thumbnail">
           <img src="/images/whereabouts.png" alt="...">
           <div class="caption text-center">
-            <h3>Thumbnail label</h3>
-            <p>...</p>
+            <h3>Whereabouts</h3>
+            <p>Utilizes Google Maps API, PostgreSQL, Oauth, Bcrypt, Passport Js, Node, Express, cookies, and SCSS to create a space where users can share their favorite hidden gems and local knowledge with other users from around the world.</p>
           </div>
         </div>
+        </a>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-6">
+        <a class="a-proj" href="https://craftyapp.firebaseapp.com/">
+
         <div class="thumbnail">
           <img src="/images/crafty.png" alt="...">
           <div class="caption text-center">
-            <h3>Thumbnail label</h3>
-            <p>...</p>
+            <h3>Crafty</h3>
+            <p>A full CRUD Angular App with Bcrypt, Node, Express, PostgreSQL, and JWT tokens. Component­based architecture closely follows the Angular Style Guide. Users share their latest crafting projects, comment on others, and vote on their favorites.</p>
           </div>
         </div>
+        </a>
       </div>
       <div class="col-sm-12 col-md-6">
+        <a class="a-proj" href="http://tesseractjs.herokuapp.com/">
+
         <div class="thumbnail">
           <img src="/images/tesseract.png" alt="...">
           <div class="caption text-center">
-            <h3>Thumbnail label</h3>
-            <p>...</p>
+            <h3>Tesseract</h3>
+            <p>Node, Express, PostgreSQL, Knex, Bcrypt, and SCSS used to create a Rubik's Cube timer app. Users can record their times, compare them to their previous records, and to the community’s best times.</p>
           </div>
         </div>
+        </a>
       </div>
     </div>
 
   </div>
 
-  <div class="container-fluid div-footer">
+  <div class="container-fluid div-footer" id="contact">
     <div class="text-center">
       <h2>Contact</h2>
     </div>
     <div class="row">
       <div class="col-md-offset-5">
-        <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-        <i class="fa fa-github fa-3x" aria-hidden="true"></i>
-        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+        <a href="mailto:summer.wollin@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+        <a href="https://github.com/summerwollin"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/summerwollin"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
