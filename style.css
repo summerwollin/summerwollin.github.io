@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 * {
-  font-family: Lato;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Lato;*/
 }
 header {
   background-color: #ccc;
@@ -34,6 +35,10 @@ nav {
 .a-nav h2 {
   color: white;
 }
+
+
+
+/*About Section*/
 .container-about {
   display: flex;
   flex-direction: column;
@@ -46,4 +51,79 @@ nav {
 }
 .img-about {
   width: 400px;
+}
+
+
+
+/*Projects Section*/
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.h1-proj {
+  margin: auto;
+  margin-top: 50px;
+}
+article {
+
+  margin: auto;
+  background-color: #e4e4e4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0px;
+  width: 50%;
+  margin-top: 20px;
+}
+.article-header {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(33, 168, 219);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+.article-header * {
+  margin: auto;
+  padding: 10px;
+}
+.article-body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+article p {
+  margin: auto;
+  padding: 30px;
+  padding-left: 50px;
+}
+.img-project {
+  margin: auto;
+  padding: 10px;
+  padding-top: 30px;
+  width: 500px;
+  overflow: hidden;
+}
+
+
+/*Icon Section*/
+
+/*.container-icons {
+  display: flex;
+  /*flex-direction: column;*/
+  /*width: 80%;
+  margin: auto;
+}*/*/
+.row-icons {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-around;
+  width: 300px;;
+}
+.img-icon{
+  /*width: 100px;*/
+  border-radius: 15px;
+  /*margin: auto;*/
 }
