@@ -59,3 +59,15 @@ i {
 .navbar * {
   color: white;
 }
+/*.thumbnail{
+    width: 500px; // or you could use percentage value for responsive layout
+    height: 600px;
+    overflow: auto;
+}*/
+
+.thumbnail .img-wh{
+  height: 316px;
+}
+.thumbnail .img-ts{
+  height: 283px;
+}
