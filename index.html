@@ -39,8 +39,22 @@
   </nav>
   <div class="container-fluid jumbo-img">
   </div>
+  <div class="container-fluid main">
+
+
+  <div id="about"></div>
+    <div class="row container-about">
+      <div class="text-center">
+        <h1>About Me</h1>
+        <p>Summer Wollin is a full stack web developer specializing in JavaScript and the NEAP stack (Node, Express, Angular, and PostgreSQL). She has also learned the basics of Python and 6502 Assembly, and is a Certified Scrum Master.
+
+Before venturing into the programming world, she worked for 6+ years in environmental outreach and education, community engagement, sustainable business practices, and waste management and worked with such organizations as The Environmental Center, ESPN, Clean Vibes and the Bureau of Land Management.
+
+Her Environmental Studies and Geology degrees from The University of Colorado, plus additional specializations in Permaculture Design and Sustainable Development, provides a multidisciplinary critical-thinking approach to problem solving, solutions development, and sustainable business strategies.</p>
+      </div>
+    </div>
   <div id="skills"></div>
-  <div class="container container-skills" >
+  <div class="container-fluid container-skills" >
     <div class="row">
       <div class="text-center">
         <h1>Skills</h1>
@@ -91,7 +105,7 @@
 
   </div>
   <div id="projects"></div>
-  <div class="container container-projects">
+  <div class="container-fluid container-projects">
 
     <div class="row">
       <div class="text-center">
@@ -100,50 +114,54 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-12">
         <a class="a-proj" href="https://spaceinvadersjs.firebaseapp.com/">
         <div class="thumbnail">
-          <img src="/images/invaders.png" alt="...">
           <div class="caption text-center">
             <h3>Space Invaders</h3>
-            <p>A front end JavaScript game using HTML5 Canvas and the Gamepad API. Players can choose between play modes, record high scores, and use an Xbox360 controller in this in­browser game.</p>
+          <img src="/images/invaders.png" alt="...">
+          <p>A front end JavaScript game using HTML5 Canvas and the Gamepad API. Players can choose between play modes, record high scores, and use an Xbox360 controller in this in­browser game.</p>
           </div>
         </div>
         </a>
       </div>
-      <div class="col-sm-12 col-md-6">
-        <a class="a-proj" href="https://where-a-bouts.herokuapp.com/">
+    </div>
 
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-proj">
+        <a class="a-proj" href="https://where-a-bouts.herokuapp.com/">
         <div class="thumbnail w-thumb">
-          <img class="img-wh" src="/images/whereabouts.png" alt="...">
           <div class="caption text-center">
             <h3>Whereabouts</h3>
-            <p>Utilizes Google Maps API, PostgreSQL, Oauth, Bcrypt, Passport Js, Node, Express, cookies, and SCSS to create a space where users can share their favorite hidden gems and local knowledge with other users from around the world.</p>
+          <img class="img-wh" src="/images/whereabouts.png" alt="...">
+          <p>Utilizes Google Maps API, PostgreSQL, Oauth, Bcrypt, Passport Js, Node, Express, cookies, and SCSS to create a space where users can share their favorite hidden gems and local knowledge with other users from around the world.</p>
+        </div>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <a class="a-proj" href="https://craftyapp.firebaseapp.com/">
+        <div class="thumbnail">
+          <div class="caption text-center">
+          <h3>Crafty</h3>
+          <img src="/images/crafty.png" alt="...">
+            <p>A full CRUD Angular App with Bcrypt, Node, Express, PostgreSQL, and JWT tokens. Component­based architecture closely follows the Angular Style Guide. Users share their latest crafting projects, comment on others, and vote on their favorites.</p>
           </div>
         </div>
         </a>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <a class="a-proj" href="https://craftyapp.firebaseapp.com/">
-
-        <div class="thumbnail">
-          <img src="/images/crafty.png" alt="...">
-          <div class="caption text-center">
-            <h3>Crafty</h3>
-            <p>A full CRUD Angular App with Bcrypt, Node, Express, PostgreSQL, and JWT tokens. Component­based architecture closely follows the Angular Style Guide. Users share their latest crafting projects, comment on others, and vote on their favorites.</p>
-          </div>
-        </div>
-        </a>
-      </div>
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-12">
         <a class="a-proj" href="http://tesseractjs.herokuapp.com/">
 
         <div class="thumbnail">
-          <img class="img-ts" src="/images/tesseract.png" alt="...">
           <div class="caption text-center">
-            <h3>Tesseract</h3>
+
+          <h3>Tesseract</h3>
+          <img src="/images/tesseract.png" alt="...">
             <p>Node, Express, PostgreSQL, Knex, Bcrypt, and SCSS used to create a Rubik's Cube timer app. Users can record their times, compare them to their previous records, and to the community’s best times.</p>
           </div>
         </div>
@@ -152,13 +170,16 @@
     </div>
 
   </div>
-
+  </div>
   <div class="container-fluid div-footer" id="contact">
-    <div class="text-center">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 text-center">
       <h2>Contact</h2>
     </div>
+  </div>
+
     <div class="row">
-      <div class="col-md-offset-5">
+      <div class="col-sm-12 col-md-12 text-center">
         <a href="mailto:summer.wollin@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
         <a href="https://github.com/summerwollin"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/summerwollin"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
