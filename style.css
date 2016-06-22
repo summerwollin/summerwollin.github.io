@@ -42,6 +42,15 @@ h1 {
   border-radius: 10px;
   margin: 30px;
 }
+h6 {
+  visibility: hidden;
+}
+.img-icon:hover {
+  opacity: .3;
+}
+.img-icon:hover h6 {
+    visibility: visible;
+}
 .row-icons {
   margin-left: 30px;
 }
