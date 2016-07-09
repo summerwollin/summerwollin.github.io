@@ -29,10 +29,10 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-a" href="#about">About</a></li>
+          <li><a class="nav-a" href="#skills">Skills</a></li>
+          <li><a class="nav-a" href="#projects">Projects</a></li>
+          <li><a class="nav-a" href="#contact">Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -59,45 +59,46 @@
     </div>
     <div class="row row-icons">
       <div class="col-md-3">
-        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Tooltip on top" src="/images/javascript.png" alt="JavaScript" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="JavaScript" src="/images/javascript.png" alt="JavaScript" />
         <h6>JavaScript</h6>
       </div>
       <div class="col-md-3">
-        <img class="img-icon" src="/images/nodejs.png" alt="nodejs" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Node.js" src="/images/nodejs.png" alt="nodejs" />
       </div>
       <div class="col-md-3">
-        <img class="img-icon" src="/images/express.png" alt="express" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Express.js" src="/images/express.png" alt="express" />
       </div>
       <div class="col-md-3">
-        <img class="img-icon" src="/images/knex2.png" alt="" />
-      </div>
-    </div>
-    <div class="row row-icons">
-      <div class="col-md-3">
-        <img class="img-icon" src="/images/angular.png" alt="" />
-      </div>
-      <div class="col-md-3">
-        <img class="img-icon" src="/images/jquery.gif" alt="" />
-      </div>
-      <div class="col-md-3">
-        <img class="img-icon" src="/images/sass.png" alt="" />
-      </div>
-      <div class="col-md-3">
-        <img class="img-icon" src="/images/bootstrap.png" alt="" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Angular.js" src="/images/angular.png" alt="" />
       </div>
     </div>
     <div class="row row-icons">
       <div class="col-md-3">
-        <img class="img-icon" src="/images/mocha.png" alt="" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="PostgreSQL" src="/images/postgres.png" alt="" />
       </div>
       <div class="col-md-3">
-        <img class="img-icon" src="/images/chai.png" alt="" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="MongoDB" src="/images/mongodb.png" alt="" />
       </div>
       <div class="col-md-3">
-        <img class="img-icon" src="/images/postgres.png" alt="" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="SCSS" src="/images/sass.png" alt="" />
       </div>
       <div class="col-md-3">
-        <img class="img-icon" src="/images/mongodb.png" alt="" />
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="jQuery" src="/images/jquery.gif" alt="" />
+      </div>
+    </div>
+
+    <div class="row row-icons">
+      <div class="col-md-3">
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Mocha.js" src="/images/mocha.png" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Chai.js" src="/images/chai.png" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Knex.js" src="/images/knex2.png" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img class="img-icon" data-toggle="tooltip" data-placement="top" title="Bootstrap" src="/images/bootstrap.png" alt="" />
       </div>
     </div>
 
@@ -113,72 +114,73 @@
 
     <div class="row">
       <div class="col-sm-12 col-md-12">
-        <a class="a-proj" href="https://spaceinvadersjs.firebaseapp.com/">
+
         <div class="thumbnail">
           <div class="caption text-center">
-            <h3>Space Invaders</h3>
-          <img src="/images/invaders.png" alt="...">
-          <p>A front end JavaScript game using HTML5 Canvas and the Gamepad API. Players can choose between play modes, record high scores, and use an Xbox360 controller in this in­browser game.</p>
+            <h3>ArenaJS</h3>
+            <a class="a-proj" href="https://arenajs.herokuapp.com"><img src="/images/arenajs.png" alt="..."></a>
+            <p>A 3D in-browser multiplayer first person shooter. Players can challenge their friends online  in this last-one-standing game.</p>
           </div>
         </div>
-        </a>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-12 col-md-12 col-proj">
-        <a class="a-proj" href="https://where-a-bouts.herokuapp.com/">
         <div class="thumbnail w-thumb">
           <div class="caption text-center">
             <h3>Whereabouts</h3>
-          <img class="img-wh" src="/images/whereabouts.png" alt="...">
-          <p>Utilizes Google Maps API, PostgreSQL, Oauth, Bcrypt, Passport Js, Node, Express, cookies, and SCSS to create a space where users can share their favorite hidden gems and local knowledge with other users from around the world.</p>
+            <a class="a-proj" href="https://where-a-bouts.herokuapp.com/"><img class="img-wh" src="/images/whereabouts.png" alt="..."></a>
+            <p>Utilizes Google Maps API, PostgreSQL, Oauth, Bcrypt, Passport Js, Node, Express, cookies, and SCSS to create a space where users can share their favorite hidden gems and local knowledge with other users from around the world.</p>
+          </div>
         </div>
-        </div>
-        </a>
       </div>
     </div>
+
     <div class="row">
       <div class="col-sm-12 col-md-12">
-        <a class="a-proj" href="https://craftyapp.firebaseapp.com/">
         <div class="thumbnail">
           <div class="caption text-center">
-          <h3>Crafty</h3>
-          <img src="/images/crafty.png" alt="...">
+            <h3>Crafty</h3>
+            <a class="a-proj" href="https://craftyapp.firebaseapp.com/"><img src="/images/crafty.png" alt="..."></a>
             <p>A full CRUD Angular App with Bcrypt, Node, Express, PostgreSQL, and JWT tokens. Component­based architecture closely follows the Angular Style Guide. Users share their latest crafting projects, comment on others, and vote on their favorites.</p>
           </div>
         </div>
-        </a>
       </div>
     </div>
+
     <div class="row">
       <div class="col-sm-12 col-md-12">
-        <a class="a-proj" href="https://galvanize-library.herokuapp.com/">
-
         <div class="thumbnail">
           <div class="caption text-center">
-
-          <h3>Galvanize Library</h3>
-          <img src="/images/reads.png" alt="...">
+            <h3>Space Invaders</h3>
+            <a class="a-proj" href="https://spaceinvadersjs.firebaseapp.com/"><img src="/images/invaders.png" alt="..."></a>
+            <p>A front end JavaScript game using HTML5 Canvas and the Gamepad API. Players can choose between play modes, record high scores, and use an Xbox360 controller in this in­browser game.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- 
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <div class="thumbnail">
+          <div class="caption text-center">
+            <h3>Library</h3>
+            <a class="a-proj" href="https://galvanize-library.herokuapp.com/"><img src="/images/reads.png" alt="..."></a>
             <p>Node, Express, PostgreSQL, Knex, and Custom CSS. Full CRUD library website. Users can view, search, and add books by title or author.</p>
           </div>
         </div>
-        </a>
       </div>
-    </div>
+    </div> -->
     <div class="row">
       <div class="col-sm-12 col-md-12">
-        <a class="a-proj" href="http://tesseractjs.herokuapp.com/">
-
         <div class="thumbnail">
           <div class="caption text-center">
-
-          <h3>Tesseract</h3>
-          <img src="/images/tesseract.png" alt="...">
+            <h3>Tesseract</h3>
+            <a class="a-proj" href="http://tesseractjs.herokuapp.com/"><img src="/images/tesseract.png" alt="..."></a>
             <p>Node, Express, PostgreSQL, Knex, Bcrypt, and SCSS used to create a Rubik's Cube timer app. Users can record their times, compare them to their previous records, and to the community’s best times.</p>
           </div>
         </div>
-        </a>
       </div>
     </div>
 
@@ -200,5 +202,10 @@
     </div>
   </div>
 
+  <script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+  </script>
 </body>
 </html>
