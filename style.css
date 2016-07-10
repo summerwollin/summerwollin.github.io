@@ -1,5 +1,10 @@
 body {
   background-color: rgb(9,37,67);
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+}
+body * {
+  font-family: 'Prompt', sans-serif;
 }
 .main {
   background-color: rgb(9,37,67);
